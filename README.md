@@ -57,21 +57,24 @@ Follow these steps to get the project up and running on your local machine:
 
 ## Folder Structure
 
+├── images/  
+├── models/  
+| └── mainSchema.js  
 ├── public/  
 │ ├── css/  
-│ └── images/  
-├── routes/  
-│ └── index.js  
+│ └── img/  
+├── server/  
+│ ├── controllers/  
+| └── routes/   
 ├── views/  
 │ ├── layouts/  
 │ │ └── main.ejs  
 │ ├── partials/  
 │ │ ├── header.ejs  
-│ │ ├── footer.ejs  
 │ │ └── sidebar.ejs  
 │ ├── index.ejs  
 │ ├── about.ejs  
-│ ├── edit.ejs  
+│ ├── edit.ejs   
 │ ├── view.ejs  
 ├── .env  
 ├── app.js  
